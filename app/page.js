@@ -1,8 +1,8 @@
-import { Button } from "@/components/ui/button";
 import Header from "./_components/Header/Header";
 import Hero from "./_components/Hero";
 
-export default function Home() {
+export default async function Home() {
+
   return (
    <div>
     <Header/>
