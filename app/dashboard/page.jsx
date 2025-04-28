@@ -1,9 +1,12 @@
 import React from 'react'
+import { UserButton } from '@clerk/nextjs'
 
-function page() {
+function Dashboard() {
   return (
-    <div>Dashboard</div>
+    <div>
+      <UserButton/>
+    </div>
   )
 }
 
-export default page
+export default Dashboard
